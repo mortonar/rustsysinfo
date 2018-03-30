@@ -1,0 +1,15 @@
+[package]
+name = "rustsysinfo"
+version = "0.1.0"
+authors = ["Alex Morton <mortonar01@gmail.com>"]
+
+[lib]
+name = "rustsysinfo"
+path = "src/lib.rs"
+
+[[bin]]
+name = "getsysinfo"
+path = "src/bin.rs"
+
+[build-dependencies]
+bindgen = "0.26.3"
